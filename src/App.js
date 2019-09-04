@@ -1,8 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import characters from "./characters.json";
 import './App.css';
-import Title from './components/Title/title'
+import Title from './components/Title';
+import Card from  './components/Card';
+import Nav from './components/Nav';
+import Wrapper from './components/Wrapper'
+import characters from "./characters.json";
 
 
 
