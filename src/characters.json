@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/4/47/Beedle_The_Wind_Waker_HD.png/169px-Beedle_The_Wind_Waker_HD.png?version=72d5be7c1782bace73c096c54897d82b",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/8/8e/Fado_The_Wind_Waker_HD.png/208px-Fado_The_Wind_Waker_HD.png?version=52c74d9cfa67a02b6242592d21292fc4",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/5/53/TWWHD_Fishman_Artwork.png/215px-TWWHD_Fishman_Artwork.png?version=a7ea5713711f7d3f9d1f23e884bc297d",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/6/66/TWWHD_Ganondorf_Artwork.png/227px-TWWHD_Ganondorf_Artwork.png?version=b904bb7030b25c25a7bfd7a8dfdfd6ee",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/9/9b/Laruto_The_Wind_Waker_HD.png/166px-Laruto_The_Wind_Waker_HD.png?version=a45bd91dce66c5ce54c78a63ff2b5700",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/1/19/WW_Link_HD_1.png/240px-WW_Link_HD_1.png?version=4f4d92bb90b97509b2fc5eac3956cd6b",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/f/fb/Princess_Zelda_The_Wind_Waker_HD.png/151px-Princess_Zelda_The_Wind_Waker_HD.png?version=bb6a0f5b1714906fdee79058075fbfa8",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/3/3a/Tetra_The_Wind_Waker_HD.png/156px-Tetra_The_Wind_Waker_HD.png?version=992dd47c9678382a628c5e9242d4e7e2",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/8/87/Aryll_HD.png/240px-Aryll_HD.png?version=def32b9ac803ff658b4c5896567ecc6e",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/3/3e/Medli_The_Wind_Waker_HD.png/171px-Medli_The_Wind_Waker_HD.png?version=0c5f915c49503491322a104a5173015c",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/e/e8/Tingle_The_Wind_Waker_HD.png/176px-Tingle_The_Wind_Waker_HD.png?version=8aa0afe2dbfdc93d4faaba0a7a76aabe",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "https://gamepedia.cursecdn.com/zelda_gamepedia_en/thumb/a/a9/Makar_The_Wind_Waker_HD.png/205px-Makar_The_Wind_Waker_HD.png?version=870d63d87c4526554502095bcb7599a3",
+        "clicked": false
+    }
+]
