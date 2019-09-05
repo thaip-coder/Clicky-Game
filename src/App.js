@@ -19,7 +19,7 @@ function shuffleCards(array) {
 
 class App extends Component {
   state = {
-    cards,
+    characters,
     currentScore: 0,
     highScore: 0,
     rightWrong: "",
@@ -28,7 +28,7 @@ class App extends Component {
 
 clickEvent = id => {
   if (this.state.clicked.indexOf(id) === -1) {
-      this.handleIncrement();
+      this.increment();
       this.setState({ clicked: this.state.clicked.concat(id)});
     } else {
       this.reset();
@@ -42,12 +42,12 @@ reset = () => {
     rightWrong: "Try Again??",
     clicked: []
   });
-  this.shuffleCards();
+  this.shuffle();
 };
 
-shuffleCards = () => {
-  let shuffleCards = shuffleCards(characters);
-  this.setState({ cards: shuffleCards });
+shuffle = () => {
+  let shuffledCards = shuffleCards(characters);
+  this.setState({ cards: shuffledCards });
 };
 
 increment = () => {
@@ -57,11 +57,11 @@ increment = () => {
     rightWrong: ""
   });
   if (newScore >= this.state.highScore) {
-    this.setState({ highScore: newscore });
+    this.setState({ highScore: newScore });
   } else if (newScore === 12) {
     this.setState({ rightWrong: "Congratulations! You've Won!!"});
   }
-  this.shuffleCards();
+  this.shuffle();
 }
 
 render() {
@@ -83,7 +83,7 @@ render() {
           clickEvent={this.clickEvent}
           increment={this.increment}
           reset={this.reset}
-          shuffleCards={this.shuffleCards}
+          shuffle={this.shuffle}
           id={characters.id}
           image={characters.image}
           />
