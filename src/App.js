@@ -8,7 +8,6 @@ import Nav from './components/Nav';
 import Wrapper from './components/Wrapper'
 /* Importing characters */
 import characters from './characters.json';
-/* Importing page layout */
 
 
 
