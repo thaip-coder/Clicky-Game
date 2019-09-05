@@ -33,7 +33,6 @@ clickEvent = id => {
     } else {
       this.reset();
     }
-  }
 };
 
 reset = () => {
@@ -78,8 +77,8 @@ render() {
         <Title>
           Click on each character, but not more than once!
         </Title>
-
-        <Card
+        {this.state.characters.map(characters => (
+          <Card
           key={characters.id}
           clickEvent={this.clickEvent}
           increment={this.increment}
@@ -88,7 +87,9 @@ render() {
           id={characters.id}
           image={characters.image}
           />
+        ))}
     </Wrapper>
-  )
+    );
+  }
 }
 export default App;
