@@ -12,5 +12,4 @@ import characters from './characters.json';
 
 
 
-
 export default App;
