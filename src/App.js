@@ -67,7 +67,7 @@ increment = () => {
 render() {
   return (
     <Wrapper>
-      <nav
+      <Nav
         title="Windwaker Clicky Game"
         score={this.state.currentScore}
         highScore={this.state.highScore}
