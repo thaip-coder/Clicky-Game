@@ -9,14 +9,18 @@ import Wrapper from './components/Wrapper'
 /* Importing characters */
 import characters from './characters.json';
 
+//Function to shuffle the cards
 function shuffleCards(array) {
   for (let i = array.length - 1; i > 0; i--) {
+    //Assigns J variable a random value
     let j = Math.floor(Math.random() * (i + 1));
+    //Swaps value of J and I indexes of the array to shuffle the cards
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
 };
 
+//Sets the state of the App
 class App extends Component {
   state = {
     characters,
@@ -26,6 +30,7 @@ class App extends Component {
     clicked: [],
   };
 
+//Determines if what you clicked has been clicked already and increments score or resets the game
 clickEvent = id => {
   if (this.state.clicked.indexOf(id) === -1) {
       this.increment();
@@ -35,7 +40,9 @@ clickEvent = id => {
     }
 };
 
+//Resets the game and shuffles the cards
 reset = () => {
+  //Resets the state of the game and updates the highScore
   this.setState({
     currentScore: 0,
     highScore: this.state.highScore,
@@ -45,6 +52,7 @@ reset = () => {
   this.shuffle();
 };
 
+//
 shuffle = () => {
   let shuffledCards = shuffleCards(characters);
   this.setState({ cards: shuffledCards });
@@ -62,7 +70,7 @@ increment = () => {
     this.setState({ rightWrong: "Congratulations! You've Won!!"});
   }
   this.shuffle();
-}
+};
 
 render() {
   return (
