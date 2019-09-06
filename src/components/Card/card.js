@@ -3,7 +3,7 @@ import './Card.css';
 
 const Card = props => (
     <div 
-        classname ="card" 
+        className ="card" 
         value={props.id} 
         onClick={() => props.clickEvent(props.id)}
     >
