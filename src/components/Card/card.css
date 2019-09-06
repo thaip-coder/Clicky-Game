@@ -4,6 +4,7 @@
     border: 3px cyan solid;
     margin: 1rem;
     position: relative;
+    float: left;
 }
 
 .card > .img-container {
