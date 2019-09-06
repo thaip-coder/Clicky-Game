@@ -58,20 +58,24 @@ shuffle = () => {
   this.setState({ cards: shuffledCards });
 };
 
+//Function updates the newScore by incrementing the currentScore
 increment = () => {
   const newScore = this.state.currentScore + 1;
   this.setState({
     currentScore: newScore,
     rightWrong: ""
   });
+  //If the newScore is higher than the highScore, replace highScore with newScore
   if (newScore >= this.state.highScore) {
     this.setState({ highScore: newScore });
+  //If newScore is 12, then you've won the game
   } else if (newScore === 12) {
     this.setState({ rightWrong: "Congratulations! You've Won!!"});
   }
   this.shuffle();
 };
 
+//Renders the page with all elements
 render() {
   return (
     <Wrapper>
