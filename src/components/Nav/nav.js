@@ -3,7 +3,7 @@ import './Nav.css';
 
 const Nav = props => (
     
-    <nav className='navbar navbar-light bg-light'>
+    <nav className='navbar navbar-light bg-light nav'>
         <ul className='navbar navbar-light bg-light'>
             <li className='navbar navbar-light bg-light'>
                 <a className='navbar-brand' href='/Clicky-Game/' style={{float: "left"}}>{props.title}</a>
