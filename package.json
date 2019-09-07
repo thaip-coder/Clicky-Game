@@ -1,8 +1,8 @@
 {
-  "name": "Clicky-Game",
+  "name": "clicky-game",
   "homepage": "https://tp222.github.io/Clicky-Game/",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
@@ -10,11 +10,12 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
