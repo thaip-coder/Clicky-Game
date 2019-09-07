@@ -2,6 +2,9 @@
   "name": "clicky-game",
   "homepage": "https://tp222.github.io/Clicky-Game/",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.15.3"
+  },
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
