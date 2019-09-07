@@ -5,6 +5,7 @@
     margin: 1rem;
     position: relative;
     float: left;
+    margin-left: 22px;
 }
 
 .card > .img-container {

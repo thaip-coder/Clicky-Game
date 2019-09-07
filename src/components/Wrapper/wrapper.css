@@ -1,8 +1,6 @@
 .wrapper {
- 
     background-image: url('https://images5.alphacoders.com/728/728601.jpg');
     height: 100%;
-    flex-flow: row wrap;
-    align-content: flex-start;
-    
+    flex-flow: column;
+    align-content: center;
   }
