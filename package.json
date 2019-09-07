@@ -1,7 +1,7 @@
 {
   "name": "clicky-game",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
