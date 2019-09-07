@@ -52,7 +52,7 @@ reset = () => {
   this.shuffle();
 };
 
-//
+//Established the state of the shuffled character cards
 shuffle = () => {
   let shuffledCards = shuffleCards(characters);
   this.setState({ cards: shuffledCards });
